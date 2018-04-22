@@ -517,7 +517,8 @@ enable-cors=*
 ```
 var api_blockexplorer = "http://daemonhost.com:1118";
 ```
-TIP..
+### TIP..
+
 to run the payment in right way ... use simplewallet like this 
 
 screen -dmS simplewallet ./simplewallet --wallet-file yourwalletfile.wallet --password your_wallet_password --rpc-bind-port 8070
