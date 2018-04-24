@@ -149,7 +149,7 @@
         <tr>
             <td colspan="5">
                 <span>Example:</span>
-                <code>NsCpuCNMiner64 -o stratum+tcp://<span class="exampleHost"></span>:<span class="examplePort"></span> -u <span class="exampleAddress">YOUR_WALLET_ADDRESS</span> -p x</code>
+                <code>NsCpuCNMiner64 -xpool stratum+tcp://<span class="exampleHost"></span>:<span class="examplePort"></span> -xwal <span class="exampleAddress">YOUR_WALLET_ADDRESS</span> -xpsw x</code>
             </td>
         </tr>
         <tr>
@@ -162,7 +162,7 @@
         <tr>
             <td colspan="5">
                 <span>Example:</span>
-                <code>NsGpuCNMiner -o stratum+tcp://<span class="exampleHost"></span>:<span class="examplePort"></span> -u <span class="exampleAddress">YOUR_WALLET_ADDRESS</span> -p x</code>
+                <code>NsGpuCNMiner -xpool stratum+tcp://<span class="exampleHost"></span>:<span class="examplePort"></span> -xwal <span class="exampleAddress">YOUR_WALLET_ADDRESS</span> -xpsw x</code>
             </td>
         </tr>
         <tr>
@@ -227,7 +227,7 @@
         }
     };
 
-    document.getElementById('easyminer_link').setAttribute('href', easyminerDownload);
+
     document.getElementById('miningPoolHost').textContent = poolHost;
 
     var lastPortsJson = '';
